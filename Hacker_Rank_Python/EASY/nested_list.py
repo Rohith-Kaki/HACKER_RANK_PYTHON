@@ -8,7 +8,7 @@ if __name__ == '__main__':
     #to get 2nd lowest grade
     student_second_lowest = student_sort[1]
     list_in_order = []
-    for student in records:
+    for student in records:  #iterates through the list.
         if (student_second_lowest == student[1]):
             list_in_order.append(student[0])
     for student in sorted(list_in_order):
